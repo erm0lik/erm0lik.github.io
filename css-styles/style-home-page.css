@@ -64,38 +64,26 @@
 }
 
 #roboti{
-    display: flex;
-    background-color: #b4f0ec8b;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
     width: 1280px;
+    display: grid;
+    grid-template-columns: 640px 640px;
+    justify-content: center;
     
     
 }
 .namerab{
-    display: flex;
-    height: 60px;
-    justify-content: center;
-
-}
-.p-namerab{
+    grid-column: 1/ span 2;
     font-family: fantasy;
-    color: #0b2e2cd7;
-    font-size: 50px;
-    margin: 0;
+    font-size: 55px;
+    display: grid;
+    justify-content: center;
+    
+    
 }
 .img1{
-   width: 45%;
+    width: 100%;
 }
-.raboti1{
-   display: flex;
-    justify-content: center;
-}
-.raboti2{
-    display: flex;
-    justify-content: center;
-}
+
 #poslug{
     display: flex;
     justify-content: center;
@@ -228,29 +216,24 @@
 }
 
 #roboti{
-    display: flex;
-    background-color: #b4f0ec8b;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
     width: 900px;
+    display: grid;
+    grid-template-columns: 450px 450px;
+    justify-content: center;
     
     
 }
 .namerab{
-    display: flex;
-    height: 40px;
-    justify-content: center;
-
-}
-.p-namerab{
+    grid-column: 1/ span 2;
     font-family: fantasy;
-    color: #0b2e2cd7;
-    font-size: 30px;
-    margin: 0;
+    font-size: 45px;
+    display: grid;
+    justify-content: center;
+    
+    
 }
 .img1{
-   width: 45%;
+    width: 100%;
 }
 
 
@@ -355,27 +338,26 @@
 }
 
 #roboti{
-    display: flex;
-    background-color: #b4f0ec8b;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
     width: 700px;
+    display: grid;
+    grid-template-columns: 700px;
+    justify-content: center;
     
     
 }
 .namerab{
-    display: flex;
-    height: 40px;
-    justify-content: center;
-
-}
-.p-namerab{
+    grid-column: 1/ span 1;
     font-family: fantasy;
-    color: #0b2e2cd7;
-    font-size: 30px;
-    margin: 0;
+    font-size: 35px;
+    display: grid;
+    justify-content: center;
+    
+    
 }
+.img1{
+    width: 100%;
+}
+
 
 
 
@@ -491,45 +473,30 @@
 .p-div11{
     margin-top: 60px;
     margin-right: 15px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: fantasy;
     color: #0a0a0a8b;
 }
 
 #roboti{
-    display: flex;
-    background-color: #b4f0ec8b;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
     width: 400px;
+    display: grid;
+    grid-template-columns: 400px;
+    justify-content: center;
     
     
 }
 .namerab{
-    display: flex;
-    height: 30px;
-    justify-content: center;
-
-}
-.p-namerab{
+    grid-column: 1/ span 1;
     font-family: fantasy;
-    color: #0b2e2cd7;
-    font-size: 20px;
-    margin: 0;
+    font-size: 25px;
+    display: grid;
+    justify-content: center;
+    
+    
 }
 .img1{
-   width: 100%;
-}
-.raboti1{
-   display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.raboti2{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    width: 100%;
 }
 #poslug{
     display: flex;
@@ -663,39 +630,24 @@
 }
 
 #roboti{
-    display: flex;
-    background-color: #b4f0ec8b;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
     width: 300px;
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;
     
     
 }
 .namerab{
-    display: flex;
-    height: 25px;
-    justify-content: center;
-
-}
-.p-namerab{
+    grid-column: 1/ span 1;
     font-family: fantasy;
-    color: #0b2e2cd7;
     font-size: 15px;
-    margin: 0;
+    display: grid;
+    justify-content: center;
+    
+    
 }
 .img1{
-   width: 100%;
-}
-.raboti1{
-   display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.raboti2{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    width: 100%;
 }
 #poslug{
     display: flex;
